@@ -167,9 +167,12 @@ section.gallery .gallery-work .gallery-link .gallery-hover {
     z-index: 5;
     opacity: 0;
     transition: all 0.5s ease;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
-section.gallery .gallery-work .gallery-link .gallery-hover i {
+section.gallery .gallery-work .gallery-link .gallery-hover svg {
     position: absolute;
     bottom: 50%;
     right: 50%;
